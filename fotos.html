@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<title>Doe +</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="doemais.ico" /> <!--fav icon-->
+
+<link rel="stylesheet" type="text/css" href="css/styles.css" /> <!--css que chama todos os outros-->
+<link rel="stylesheet" type="text/css" href="js/easyslider1.7/easyslider1.7/css/screen.css" /> <!--css do slide principal-->
+<link rel="stylesheet" type="text/css" href="css/rcarousel.css" /> <!--css do slide footer-->
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox-1.3.4.css" /> <!--css do fancybox-->
+<link rel="stylesheet" type="text/css" href="css/scrollbar.css" /> <!--css do scroolbar-->
+<link rel="stylesheet" href="css/lightbox.css" /> <!--css do lightbox-->
+
+
+
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/easyslider1.7/easyslider1.7/js/easySlider1.7.js"></script> <!--slide principal-->
+<script type="text/javascript" src="js/jquery.ui.core.min.js"></script> <!--slide footer 01-->
+<script type="text/javascript" src="js/jquery.ui.widget.min.js"></script> <!--slide footer 02-->
+<script type="text/javascript" src="js/jquery.ui.rcarousel.min.js"></script> <!--slide footer 03-->
+<script type="text/javascript" src="js/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.js"></script> <!--fancybox 01-->
+<script type="text/javascript" src="js/jquery.fancybox-1.3.4/fancybox/jquery.easing-1.3.pack.js"></script> <!--fancybox 02-->
+<script type="text/javascript" src="js/jquery.tinyscrollbar.min.js"></script> <!--Scroolbar-->
+<script type="text/javascript" src="js/lightbox.js"></script> <!--ligthbox-->
+
+
+<!--============ATIVANDO OS PLUGINS=================-->
+
+
+ <script type="text/javascript"> <!--slide principal-->
+    $(document).ready(function(){ 
+      $("#slider").easySlider({
+        auto: true,
+        continuous: true,
+        numeric: false, //colocando o valor: true aparecem os numeros de slide 
+      });
+    }); 
+</script> <!--fim slide principal-->
+
+<script type="text/javascript"> <!--slide footer-->
+  jQuery(function($) {
+    $( "#elementos" ).rcarousel({
+      visible:7,
+      step:3,
+      height:72,
+      width:72,
+      margin:20,
+      auto: {enabled: true},
+      speed:3000,
+    });
+  });
+</script> <!--fim do slide footer-->
+
+<script type="text/javascript"> <!--fancybox-->
+  $(document).ready(function(){
+    $('#menu2').fancybox({
+    'width' : '75%',
+    'heigh' : '75%',
+    'type' : 'iframe',  
+    'transitionOut' : 'elastic',
+    'transitionIn' : 'elastic',
+    });  
+  });
+</script> <!--fim do fancybox-->
+
+<script type="text/javascript"> <!--scroolbar--> 
+  $(document).ready(function(){ 
+    $('#scrollbar1').tinyscrollbar(); 
+    scroll: 'true'
+    }); 
+        </script> <!--fim do scroolbar-->
+
+</head>
+
+
+<!--==================================================== ALL ==================================================================-->
+
+<div id="all">
+  <div id="anttop">
+    <div id="top">
+        <div id="logo">
+          <a href="index.html"> <img src="imagens/logo.svg" title="Doe +" alt="Doe +"/></a>
+        </div> <!--fim da logo-->
+            <ul id="menu">
+          <li><a href="contato.html"> Fale Conosco </a></li>
+          <li><a href="videos.html"> V&iacute;deos</a></li>
+          <li><a href="fotos.html"> Fotos </a></li>
+          <li><a href="login.html"> Login </a></li>
+        </ul> <!--fim do menu-->
+    </div> <!--fim do top-->
+  </div> <!--fim do anttop-->
+
+<div class="limpar"></div> <!--div criada para retornar o fluxo normal dos elementos-->
+   
+<!--============================================== CONTENT =========================================================-->
+
+
+<div id="linha"> </div>
+
+<div class="limpar"></div> <!--div criada para retornar o fluxo normal dos elementos-->
+
+
+<div id="antcontent">
+ <div id="content">
+  <ul id="titulofotos"> <li> Fotos </li> </ul>
+<br />
+
+<div id="fotos">
+  
+    <h1 class="galeria"> Galeria 2012 </h1>
+    <ul id="galeria">
+    <li>
+    <a rel="lightbox[g]" href="imagens/fotos/001.jpg">
+     <img src="imagens/fotos/thumb-001.jpg" title="" alt="" />
+    </a> </li>
+     
+    <li> <a rel="lightbox[g]" href="imagens/fotos/002.jpg">
+     <img src="imagens/fotos/thumb-002.jpg" title="" alt="" />
+    </a> </li>
+    
+    <li> <a rel="lightbox[g]" href="imagens/fotos/003.jpg">
+     <img src="imagens/fotos/thumb-003.jpg" title="" alt="" />
+    </a> </li> 
+    
+    <li> <a rel="lightbox[g]" href="imagens/fotos/004.jpg">
+     <img src="imagens/fotos/thumb-004.jpg" title="" alt="" />
+    </a></li>
+
+  <li>
+    <a rel="lightbox[g]" href="imagens/fotos/001.jpg">
+     <img src="imagens/fotos/thumb-001.jpg" title="" alt="" />
+    </a> </li>
+     
+    <li> <a rel="lightbox[g]" href="imagens/fotos/002.jpg">
+     <img src="imagens/fotos/thumb-002.jpg" title="" alt="" />
+    </a> </li>
+    
+    <li> <a rel="lightbox[g]" href="imagens/fotos/003.jpg">
+     <img src="imagens/fotos/thumb-003.jpg" title="" alt="" />
+    </a> </li> 
+    
+    <li> <a rel="lightbox[g]" href="imagens/fotos/004.jpg">
+     <img src="imagens/fotos/thumb-004.jpg" title="" alt="" />
+    </a></li>
+    
+     <li> <a rel="lightbox[g]" href="imagens/fotos/003.jpg">
+     <img src="imagens/fotos/thumb-003.jpg" title="" alt="" />
+    </a> </li> 
+    
+    <li> <a rel="lightbox[g]" href="imagens/fotos/004.jpg">
+     <img src="imagens/fotos/thumb-004.jpg" title="" alt="" />
+    </a></li>
+    </ul>
+
+<div class="limpar"></div> <!--div criada para retornar o fluxo normal dos elementos-->
+<br />
+    <h1 class="galeria"> Galeria 2011 </h1>
+    <ul id="galeria">
+    <li>
+    <a rel="lightbox[g]" href="imagens/fotos/001.jpg">
+     <img src="imagens/fotos/thumb-001.jpg" title="" alt="" />
+    </a> </li>
+     
+    <li> <a rel="lightbox[g]" href="imagens/fotos/002.jpg">
+     <img src="imagens/fotos/thumb-002.jpg" title="" alt="" />
+    </a> </li>
+    
+    <li> <a rel="lightbox[g]" href="imagens/fotos/003.jpg">
+     <img src="imagens/fotos/thumb-003.jpg" title="" alt="" />
+    </a> </li> 
+    
+    <li> <a rel="lightbox[g]" href="imagens/fotos/004.jpg">
+     <img src="imagens/fotos/thumb-004.jpg" title="" alt="" />
+    </a></li>
+
+  <li>
+    <a rel="lightbox[g]" href="imagens/fotos/001.jpg">
+     <img src="imagens/fotos/thumb-001.jpg" title="" alt="" />
+    </a> </li>
+     
+    <li> <a rel="lightbox[g]" href="imagens/fotos/002.jpg">
+     <img src="imagens/fotos/thumb-002.jpg" title="" alt="" />
+    </a> </li>
+    
+    <li> <a rel="lightbox[g]" href="imagens/fotos/003.jpg">
+     <img src="imagens/fotos/thumb-003.jpg" title="" alt="" />
+    </a> </li> 
+    
+    <li> <a rel="lightbox[g]" href="imagens/fotos/004.jpg">
+     <img src="imagens/fotos/thumb-004.jpg" title="" alt="" />
+    </a></li>
+    
+     <li> <a rel="lightbox[g]" href="imagens/fotos/003.jpg">
+     <img src="imagens/fotos/thumb-003.jpg" title="" alt="" />
+    </a> </li> 
+    
+    <li> <a rel="lightbox[g]" href="imagens/fotos/004.jpg">
+     <img src="imagens/fotos/thumb-004.jpg" title="" alt="" />
+    </a></li>
+    </ul>
+    
+<div class="limpar"></div> <!--div criada para retornar o fluxo normal dos elementos-->    
+
+</div> <!-- Fim das Fotos-->
+<br />
+    
+ </div> <!--fim do content-->
+</div> <!--fim do antcontent-->
+
+</div> <!--fim do all-->
+
+<div class="limpar"></div> <!--div criada para retornar o fluxo normal dos elementos-->
+
+
+
+
+<!--======================================================== FOOTER =================================================-->
+
+<div id="bgfooter">
+    <div id="hdois"><h2> Nossos Parceiros </h2></div>
+    <div id="footer">
+      <div id="elementos"> 
+           <a href="http://www.google.com.br" target="_blank" title="Adidas" class="prime">
+          <img src="imagens/parceiros/thumb_adidas.jpg" alt="Adidas" />
+        </a> 
+     
+      <a href="http://www.google.com.br" target="_blank" title="Airtel">
+          <img src="imagens/parceiros/thumb_airtel.jpg" alt="Airtel" />
+        </a>  
+    
+      <a href="http://www.google.com.br" target="_blank" title="Petrobras">
+          <img src="imagens/parceiros/thumb_br.jpg" alt="Petrobrás" />
+        </a>
+            
+             <a href="http://www.google.com.br" target="_blank" title="Carrefour">
+          <img src="imagens/parceiros/thumb_carrefour.jpg" alt="Carrefour" />
+        </a> 
+     
+      <a href="http://www.google.com.br" target="_blank" title="Liga UEFA">
+          <img src="imagens/parceiros/thumb_champions.jpg" alt="Liga UEFA" />
+        </a>  
+    
+      <a href="http://www.google.com.br" target="_blank" title="Coca-Cola">
+          <img src="imagens/parceiros/thumb_coca.jpg" alt="Coca-Cola" />
+        </a>
+            
+            <a href="http://www.google.com.br" target="_blank" title="Ecoopertec">
+          <img src="imagens/parceiros/thumb_ecoopertec.jpg" alt="Ecoopertec" />
+        </a>
+            
+            <a href="http://www.google.com.br" target="_blank" title="Lâmapadas GE">
+          <img src="imagens/parceiros/thumb_ge.jpg" alt="Lâmpadas GE" />
+        </a>
+            
+            <a href="http://www.google.com.br" target="_blank" title="Rede Globo">
+          <img src="imagens/parceiros/thumb_globo.jpg" alt="Rede Globo" />
+        </a>
+            
+            <a href="http://www.google.com.br" target="_blank" title="Indexopar">
+          <img src="imagens/parceiros/thumb_indexopar.jpg" alt="Indexopar" />
+        </a>
+            
+            <a href="http://www.google.com.br" target="_blank" title="Joomla">
+          <img src="imagens/parceiros/thumb_joomla.jpg" alt="Joomla" />
+        </a>
+            <a href="http://www.google.com.br" target="_blank" title="Master Card">
+          <img src="imagens/parceiros/thumb_master.jpg" alt="Master Card" />
+        </a> 
+     
+      <a href="http://www.google.com.br" target="_blank" title="Mercedes Benz">
+          <img src="imagens/parceiros/thumb_mercedes.jpg" alt="Mercedes Benz" />
+        </a>  
+    
+      <a href="http://www.google.com.br" target="_blank" title="Playstation Company">
+          <img src="imagens/parceiros/thumb_psp.jpg" alt="Playstation Company" />
+        </a>
+            
+            <a href="http://www.google.com.br" target="_blank" title="Saab">
+          <img src="imagens/parceiros/thumb_saab.jpg" alt="Saab" />
+        </a>
+            
+            <a href="http://www.google.com.br" target="_blank" title="Postos Shell">
+          <img src="imagens/parceiros/thumb_shell.jpg" alt="Postos Shell" />
+        </a>
+            
+            <a href="http://www.google.com.br" target="_blank" title="Tim">
+          <img src="imagens/parceiros/thumb_tim.jpg" alt="Tim" />
+        </a> 
+     
+      <a href="http://www.google.com.br" target="_blank" title="Ubuntu">
+          <img src="imagens/parceiros/thumb_ubuntu.jpg" alt="Ubuntu" />
+        </a>  
+    
+      <a href="http://www.google.com.br" target="_blank" title="Unifal">
+          <img src="imagens/parceiros/thumb_unifal.jpg" alt="Unifal" />
+        </a>
+            
+            <a href="http://www.google.com.br" target="_blank" title="Volkswagen" class="last">
+          <img src="imagens/parceiros/thumb_volks.jpg" alt="Volkswagen" />
+        </a>
+            
+            </div>
+    </div> <!--fim do footer-->
+</div> <!--fim do bgfooter-->
+
+
+<body>
+</body>
+</html>

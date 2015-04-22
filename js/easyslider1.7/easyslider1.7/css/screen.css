@@ -1,0 +1,36 @@
+#slider li, #slider2 li{ /*definir largura e altura dos slides, tudo ajustará de acordo com os parâmetros fornecidos aqui*/ 
+	width:960px;
+	height:235px;
+	overflow:hidden; 
+}	
+
+/* CSS DOS BOTÕES */	
+
+ol#controls{
+	margin:0;
+	padding:0;
+	height:10px;	
+}
+
+ol#controls li{
+	margin:2px; 
+	float:left;
+	list-style:none;
+	height:12px;
+	line-height:12px;
+}
+
+ol#controls li a{
+	float:left;
+	height:20px;
+	line-height:20px;
+	border:1px solid #ccc;
+	background:#5db5c1;
+	color:#000;
+	text-decoration:overline;
+}
+
+ol#controls li.current a{
+	background:#528188;
+	color:#fff;
+}
